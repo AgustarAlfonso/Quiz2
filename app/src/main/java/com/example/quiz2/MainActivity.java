@@ -98,8 +98,10 @@ public class MainActivity extends AppCompatActivity {
             return "Type : PS 4 (Rp 8.000)";
         } else if (binding.rbps3.isChecked()) {
             return "Type : PS 3 (Rp 5.000)";
-        } else {
+        } else if (binding.rbps4.isChecked()) {
             return "Type : PS VR (Rp 20.000)";
+        } else {
+            return "Pilih PS terlebih dahulu";
         }
     }
 }
