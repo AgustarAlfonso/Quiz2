@@ -111,7 +111,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/bt1"
         android:layout_gravity="center"
-        android:text="pesan"></Button>
+        android:text="pesan"
+        android:inputType="number"></Button>
 
 
 
